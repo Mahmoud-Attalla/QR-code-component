@@ -39,6 +39,7 @@ img{
     padding: 16px;
     border-radius: 20px;
     text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 p{
     font-size: var(--Fsize-paragraph);
