@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Outfit';
+    src: url('../Fonts/Outfit/Outfit-VariableFont_wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Outfit font 400 700*/
+    --Outfit-font:'Outfit';
+    /*Colors*/
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    /*font size*/
+    --Fsize-paragraph:15px;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--Light-gray);
+    font-family: var(--Outfit-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.QR-card{
+    width: 321px;
+    background-color:var(--White);
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+}
+p{
+    font-size: var(--Fsize-paragraph);
+    color: var(--Grayish-blue);
+    padding: 16px 16px 24px ;
+    
+}
+.description{
+    margin-top: 23px;
+}
+h2{
+    font-size: 22px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+footer a{
+    color: var(--Dark-blue);
+    font-size: 14px;
+    text-decoration: none;
+}
